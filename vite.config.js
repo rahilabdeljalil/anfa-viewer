@@ -14,7 +14,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ['react', 'react-dom', 'react-spring'],
+          vendor: ['react', 'react-dom', '@react-spring/web'],
           // Add other libraries you use
         },
       },
