@@ -1,7 +1,6 @@
 // App.jsx
 import React, { createContext, useState, useContext } from 'react';
-import { useSpring, animated } from '@react-spring/web';
-import { useDrag, usePinch } from 'react-use-gesture';
+
 import './styles/main.css';
 
 // Create the context
